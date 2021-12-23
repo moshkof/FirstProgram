@@ -3,6 +3,6 @@ import sys
 
 app = QtWidgets.QApplication(sys.argv)
 
-window = uic.loadUi("tamplete.ui")
+window = uic.loadUi("template.ui")
 window.show()
 sys.exit(app.exec())
